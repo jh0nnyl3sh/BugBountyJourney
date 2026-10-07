@@ -1,6 +1,6 @@
 # 🛡️ Bug Bounty Journey
 
-> Sıfırdan etik hacker'lığa / bug bounty avcılığına uzanan kişisel öğrenme yolculuğumun günlüğü.
+> Sıfırdan etik hacker'lığa / bug bounty avcılığına uzanan kişisel öğrenme yolculuğunun günlüğü.
 
 **Başlangıç:** 06.10.2026
 **Bir yıllık kontrol noktası:** 06.10.2027
@@ -24,13 +24,22 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 **Bilgi basamakları:** Ağ + Linux temelleri → Web uygulama güvenliği (OWASP + Burp) → Bir alanda uzmanlaşma
 **Sertifika hedefi (şimdilik):** BSCP (Burp Suite Certified Practitioner)
 
-## ⚖️ Etik İlke
+## 📚 Konular
 
-İzinsiz hiçbir sisteme dokunulmaz. Her test ya bir bug bounty programının **scope**'u içinde ya da kendi lab ortamında yapılır. Yazılı izin yoksa, dokunmak yok.
+Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam et.
 
-## 📒 Günlük
+| # | Konu | Dosya |
+|---|------|-------|
+| 1 | Web Nasıl Çalışır? (İstek/Yanıt Döngüsü) | [konular/01-web-nasil-calisir.md](./konular/01-web-nasil-calisir.md) |
+| 2 | HTTP İsteğinin Anatomisi | [konular/02-http-istegi-anatomisi.md](./konular/02-http-istegi-anatomisi.md) |
+| 3 | Oturum (Session) Mantığı | [konular/03-oturum-session-mantigi.md](./konular/03-oturum-session-mantigi.md) |
+| 4 | IDOR | [konular/04-idor.md](./konular/04-idor.md) |
+| — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
-İşlenen konuların detaylı notları için → [`log.md`](./log.md)
+## 🔜 Sıradaki Adım
+
+- Burp Suite kurulumu ve ilk kullanım (Kali VM üzerinde)
+- Ardından PortSwigger Web Security Academy'de ilk IDOR lab'ını elle sömürmek
 
 ---
 
