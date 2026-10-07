@@ -1,4 +1,4 @@
-# Bug Bounty Öğrenme Günlüğü — Uğur
+# Bug Bounty Öğrenme Günlüğü
 
 > Başlangıç: 06.10.2026 • Bir yıllık kontrol noktası: 06.10.2027
 > Her yeni konuya geçmeden önce bu dosyayı bir oku, tekrar et, sonra devam et.
