@@ -34,12 +34,13 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 2 | HTTP İsteğinin Anatomisi | [konular/02-http-istegi-anatomisi.md](./konular/02-http-istegi-anatomisi.md) |
 | 3 | Oturum (Session) Mantığı | [konular/03-oturum-session-mantigi.md](./konular/03-oturum-session-mantigi.md) |
 | 4 | IDOR | [konular/04-idor.md](./konular/04-idor.md) |
+| 5 | Burp Suite (İsteği Havada Yakalamak) | [konular/05-burp-suite.md](./konular/05-burp-suite.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🔜 Sıradaki Adım
 
-- Burp Suite kurulumu ve ilk kullanım (Kali VM üzerinde)
-- Ardından PortSwigger Web Security Academy'de ilk IDOR lab'ını elle sömürmek
+- İlk gerçek **IDOR lab'ı** (PortSwigger Web Security Academy), Burp ile elle sömürme
+- Burp **Repeater**'ı gerçek bir istekte kullanmak
 
 ---
 
