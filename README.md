@@ -35,12 +35,19 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 3 | Oturum (Session) Mantığı | [konular/03-oturum-session-mantigi.md](./konular/03-oturum-session-mantigi.md) |
 | 4 | IDOR | [konular/04-idor.md](./konular/04-idor.md) |
 | 5 | Burp Suite (İsteği Havada Yakalamak) | [konular/05-burp-suite.md](./konular/05-burp-suite.md) |
+| 6 | 🎉 İlk Çözülen Lab: IDOR (PortSwigger) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
+
+## 🏆 Çözülen Lab'lar
+
+| Tarih | Platform | Lab | Seviye |
+|-------|----------|-----|--------|
+| 09.10.2026 | PortSwigger | Insecure direct object references | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- İlk gerçek **IDOR lab'ı** (PortSwigger Web Security Academy), Burp ile elle sömürme
-- Burp **Repeater**'ı gerçek bir istekte kullanmak
+- Access control / IDOR ailesinden bir sonraki lab
+- Burp **Repeater**'ı bir istekte aktif kullanmak
 
 ---
 
