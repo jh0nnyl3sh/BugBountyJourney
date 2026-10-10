@@ -35,7 +35,8 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 3 | Oturum (Session) Mantığı | [konular/03-oturum-session-mantigi.md](./konular/03-oturum-session-mantigi.md) |
 | 4 | IDOR | [konular/04-idor.md](./konular/04-idor.md) |
 | 5 | Burp Suite (İsteği Havada Yakalamak) | [konular/05-burp-suite.md](./konular/05-burp-suite.md) |
-| 6 | 🎉 İlk Çözülen Lab: IDOR (PortSwigger) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
+| 6 | 🎉 İlk Çözülen Lab: IDOR (dosya tabanlı) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
+| 7 | IDOR Lab #2: User ID / URL parametresi (+ Repeater) | [konular/07-idor-lab-user-id-parametresi.md](./konular/07-idor-lab-user-id-parametresi.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -43,11 +44,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | Tarih | Platform | Lab | Seviye |
 |-------|----------|-----|--------|
 | 09.10.2026 | PortSwigger | Insecure direct object references | Apprentice |
+| 10.10.2026 | PortSwigger | User ID controlled by request parameter | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- Access control / IDOR ailesinden bir sonraki lab
-- Burp **Repeater**'ı bir istekte aktif kullanmak
+- IDOR: *User ID controlled by request parameter, with unpredictable user IDs* (karmaşık/sızan ID)
+- Access control / Apprentice lab'larını sırayla tamamlamak
 
 ---
 
