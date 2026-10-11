@@ -38,6 +38,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 6 | 🎉 İlk Çözülen Lab: IDOR (dosya tabanlı) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
 | 7 | IDOR Lab #2: User ID / URL parametresi (+ Repeater) | [konular/07-idor-lab-user-id-parametresi.md](./konular/07-idor-lab-user-id-parametresi.md) |
 | 8 | IDOR Lab #3: Tahmin edilemez (GUID) ID'ler | [konular/08-idor-lab-unpredictable-ids.md](./konular/08-idor-lab-unpredictable-ids.md) |
+| 9 | IDOR Lab #4: Redirect içinde veri sızıntısı | [konular/09-idor-lab-data-leakage-redirect.md](./konular/09-idor-lab-data-leakage-redirect.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -47,11 +48,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 09.10.2026 | PortSwigger | Insecure direct object references | Apprentice |
 | 10.10.2026 | PortSwigger | User ID controlled by request parameter | Apprentice |
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
+| 11.10.2026 | PortSwigger | User ID controlled by request parameter with data leakage in redirect | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
 - Access control / Apprentice lab'larını sırayla tamamlamaya devam
-- Bir sonraki: *User ID controlled by request parameter with data leakage in redirect* ya da sıradaki access-control lab'ı
+- Yetki yükseltmenin başka biçimleri (ör. gizli admin paneli, rol parametresi)
 
 ---
 
