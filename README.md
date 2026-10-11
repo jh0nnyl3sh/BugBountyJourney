@@ -37,6 +37,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 5 | Burp Suite (İsteği Havada Yakalamak) | [konular/05-burp-suite.md](./konular/05-burp-suite.md) |
 | 6 | 🎉 İlk Çözülen Lab: IDOR (dosya tabanlı) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
 | 7 | IDOR Lab #2: User ID / URL parametresi (+ Repeater) | [konular/07-idor-lab-user-id-parametresi.md](./konular/07-idor-lab-user-id-parametresi.md) |
+| 8 | IDOR Lab #3: Tahmin edilemez (GUID) ID'ler | [konular/08-idor-lab-unpredictable-ids.md](./konular/08-idor-lab-unpredictable-ids.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -45,11 +46,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |-------|----------|-----|--------|
 | 09.10.2026 | PortSwigger | Insecure direct object references | Apprentice |
 | 10.10.2026 | PortSwigger | User ID controlled by request parameter | Apprentice |
+| 11.10.2026 | PortSwigger | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- IDOR: *User ID controlled by request parameter, with unpredictable user IDs* (karmaşık/sızan ID)
-- Access control / Apprentice lab'larını sırayla tamamlamak
+- Access control / Apprentice lab'larını sırayla tamamlamaya devam
+- Bir sonraki: *User ID controlled by request parameter with data leakage in redirect* ya da sıradaki access-control lab'ı
 
 ---
 
