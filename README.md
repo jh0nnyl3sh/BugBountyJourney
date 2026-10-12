@@ -11,7 +11,7 @@
 
 Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar içinde (bug bounty programları + yasal lab'lar) zafiyet avcılığı yapabilecek seviyeye gelmek.
 
-**Felsefe:** Hedef bug bounty (motivasyon), günlük iş ise basamakları sırayla ve sindirerek geçmek. Para, bilginin doğal sonucudur.
+**Felsefe:** Hedef bug bounty (motivasyon), günlük iş ise basamakları sırayla ve sindirerek geçmek. Para, bilginin doğal sonucudur. 100 kiloyu bir kere değil, 1 kiloyu 100 kere.
 
 ## 🗺️ Yol Haritası
 
@@ -39,6 +39,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 7 | IDOR Lab #2: User ID / URL parametresi (+ Repeater) | [konular/07-idor-lab-user-id-parametresi.md](./konular/07-idor-lab-user-id-parametresi.md) |
 | 8 | IDOR Lab #3: Tahmin edilemez (GUID) ID'ler | [konular/08-idor-lab-unpredictable-ids.md](./konular/08-idor-lab-unpredictable-ids.md) |
 | 9 | IDOR Lab #4: Redirect içinde veri sızıntısı | [konular/09-idor-lab-data-leakage-redirect.md](./konular/09-idor-lab-data-leakage-redirect.md) |
+| 10 | Access Control #5: Korumasız admin işlevi (robots.txt) | [konular/10-access-control-unprotected-admin.md](./konular/10-access-control-unprotected-admin.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -49,11 +50,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 10.10.2026 | PortSwigger | User ID controlled by request parameter | Apprentice |
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter with data leakage in redirect | Apprentice |
+| 12.10.2026 | PortSwigger | Unprotected admin functionality | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- Access control / Apprentice lab'larını sırayla tamamlamaya devam
-- Yetki yükseltmenin başka biçimleri (ör. gizli admin paneli, rol parametresi)
+- Access control: korumasız admin işlevinin varyantları (tahmin edilemez URL, rol parametresi)
+- Ardından yeni zafiyet sınıfı: **XSS**
 
 ---
 
