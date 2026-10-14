@@ -40,6 +40,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 8 | IDOR Lab #3: Tahmin edilemez (GUID) ID'ler | [konular/08-idor-lab-unpredictable-ids.md](./konular/08-idor-lab-unpredictable-ids.md) |
 | 9 | IDOR Lab #4: Redirect içinde veri sızıntısı | [konular/09-idor-lab-data-leakage-redirect.md](./konular/09-idor-lab-data-leakage-redirect.md) |
 | 10 | Access Control #5: Korumasız admin işlevi (robots.txt) | [konular/10-access-control-unprotected-admin.md](./konular/10-access-control-unprotected-admin.md) |
+| 11 | Access Control #6: Admin URL JavaScript'te sızıyor | [konular/11-access-control-admin-js-leak.md](./konular/11-access-control-admin-js-leak.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -51,10 +52,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter with data leakage in redirect | Apprentice |
 | 12.10.2026 | PortSwigger | Unprotected admin functionality | Apprentice |
+| 14.10.2026 | PortSwigger | Unprotected admin functionality with unpredictable URL | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- Access control: korumasız admin işlevinin varyantları (tahmin edilemez URL, rol parametresi)
+- Access control: rol tabanlı zafiyetler (rol parametresi / cookie, profilde rol değiştirme)
 - Ardından yeni zafiyet sınıfı: **XSS**
 
 ---
