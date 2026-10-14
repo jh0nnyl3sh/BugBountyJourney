@@ -41,6 +41,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 9 | IDOR Lab #4: Redirect içinde veri sızıntısı | [konular/09-idor-lab-data-leakage-redirect.md](./konular/09-idor-lab-data-leakage-redirect.md) |
 | 10 | Access Control #5: Korumasız admin işlevi (robots.txt) | [konular/10-access-control-unprotected-admin.md](./konular/10-access-control-unprotected-admin.md) |
 | 11 | Access Control #6: Admin URL JavaScript'te sızıyor | [konular/11-access-control-admin-js-leak.md](./konular/11-access-control-admin-js-leak.md) |
+| 12 | Access Control #7: Rol çerezde kontrol ediliyor | [konular/12-access-control-role-cookie.md](./konular/12-access-control-role-cookie.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -53,10 +54,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 11.10.2026 | PortSwigger | User ID controlled by request parameter with data leakage in redirect | Apprentice |
 | 12.10.2026 | PortSwigger | Unprotected admin functionality | Apprentice |
 | 14.10.2026 | PortSwigger | Unprotected admin functionality with unpredictable URL | Apprentice |
+| 14.10.2026 | PortSwigger | User role controlled by request parameter | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- Access control: rol tabanlı zafiyetler (rol parametresi / cookie, profilde rol değiştirme)
+- Access control: profilde rol değiştirme (role in user profile), yatay→dikey yükseltme
 - Ardından yeni zafiyet sınıfı: **XSS**
 
 ---
