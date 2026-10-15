@@ -24,45 +24,72 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 **Bilgi basamakları:** Ağ + Linux temelleri → Web uygulama güvenliği (OWASP + Burp) → Bir alanda uzmanlaşma
 **Sertifika hedefi (şimdilik):** BSCP (Burp Suite Certified Practitioner)
 
-## 📚 Konular
+---
+
+## 📁 Repo Yapısı
+
+```
+.
+├── temeller/                     platform-bağımsız bilgi (konseptler)
+└── web-security/
+    └── portswigger/              platform
+        ├── access-control/       konu
+        └── cross-site-scripting/ konu
+```
+
+İleride TryHackMe, HackTheBox gibi platformlar `web-security/` altına; web dışı alanlar ise `web-security`'nin kardeşi olarak eklenir.
+
+## 📚 Temeller (platform-bağımsız)
 
 Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam et.
 
 | # | Konu | Dosya |
 |---|------|-------|
-| 1 | Web Nasıl Çalışır? (İstek/Yanıt Döngüsü) | [konular/01-web-nasil-calisir.md](./konular/01-web-nasil-calisir.md) |
-| 2 | HTTP İsteğinin Anatomisi | [konular/02-http-istegi-anatomisi.md](./konular/02-http-istegi-anatomisi.md) |
-| 3 | Oturum (Session) Mantığı | [konular/03-oturum-session-mantigi.md](./konular/03-oturum-session-mantigi.md) |
-| 4 | IDOR | [konular/04-idor.md](./konular/04-idor.md) |
-| 5 | Burp Suite (İsteği Havada Yakalamak) | [konular/05-burp-suite.md](./konular/05-burp-suite.md) |
-| 6 | 🎉 İlk Çözülen Lab: IDOR (dosya tabanlı) | [konular/06-ilk-idor-lab.md](./konular/06-ilk-idor-lab.md) |
-| 7 | IDOR Lab #2: User ID / URL parametresi (+ Repeater) | [konular/07-idor-lab-user-id-parametresi.md](./konular/07-idor-lab-user-id-parametresi.md) |
-| 8 | IDOR Lab #3: Tahmin edilemez (GUID) ID'ler | [konular/08-idor-lab-unpredictable-ids.md](./konular/08-idor-lab-unpredictable-ids.md) |
-| 9 | IDOR Lab #4: Redirect içinde veri sızıntısı | [konular/09-idor-lab-data-leakage-redirect.md](./konular/09-idor-lab-data-leakage-redirect.md) |
-| 10 | Access Control #5: Korumasız admin işlevi (robots.txt) | [konular/10-access-control-unprotected-admin.md](./konular/10-access-control-unprotected-admin.md) |
-| 11 | Access Control #6: Admin URL JavaScript'te sızıyor | [konular/11-access-control-admin-js-leak.md](./konular/11-access-control-admin-js-leak.md) |
-| 12 | Access Control #7: Rol çerezde kontrol ediliyor | [konular/12-access-control-role-cookie.md](./konular/12-access-control-role-cookie.md) |
-| 13 | XSS #1: Reflected, HTML context, nothing encoded | [konular/13-xss-reflected-html-context.md](./konular/13-xss-reflected-html-context.md) |
-| 14 | XSS #2: Stored, HTML context, nothing encoded | [konular/14-xss-stored-html-context.md](./konular/14-xss-stored-html-context.md) |
-| — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
+| 1 | Web Nasıl Çalışır? (İstek/Yanıt Döngüsü) | [temeller/01-web-nasil-calisir.md](./temeller/01-web-nasil-calisir.md) |
+| 2 | HTTP İsteğinin Anatomisi | [temeller/02-http-istegi-anatomisi.md](./temeller/02-http-istegi-anatomisi.md) |
+| 3 | Oturum (Session) Mantığı | [temeller/03-oturum-session-mantigi.md](./temeller/03-oturum-session-mantigi.md) |
+| 4 | IDOR (kavram) | [temeller/04-idor.md](./temeller/04-idor.md) |
+| 5 | Burp Suite (İsteği Havada Yakalamak) | [temeller/05-burp-suite.md](./temeller/05-burp-suite.md) |
+| ⚖️ | Etik Çizgi (her zaman cepte) | [temeller/etik-cizgi.md](./temeller/etik-cizgi.md) |
 
-## 🏆 Çözülen Lab'lar
+## 🧪 Lab Çözümleri — web-security / portswigger
 
-| Tarih | Platform | Lab | Seviye |
-|-------|----------|-----|--------|
-| 09.10.2026 | PortSwigger | Insecure direct object references | Apprentice |
-| 10.10.2026 | PortSwigger | User ID controlled by request parameter | Apprentice |
-| 11.10.2026 | PortSwigger | User ID controlled by request parameter, with unpredictable user IDs | Apprentice |
-| 11.10.2026 | PortSwigger | User ID controlled by request parameter with data leakage in redirect | Apprentice |
-| 12.10.2026 | PortSwigger | Unprotected admin functionality | Apprentice |
-| 14.10.2026 | PortSwigger | Unprotected admin functionality with unpredictable URL | Apprentice |
-| 14.10.2026 | PortSwigger | User role controlled by request parameter | Apprentice |
-| 15.10.2026 | PortSwigger | Reflected XSS into HTML context with nothing encoded | Apprentice |
-| 15.10.2026 | PortSwigger | Stored XSS into HTML context with nothing encoded | Apprentice |
+### Access Control
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Insecure direct object references | [01-insecure-direct-object-references.md](./web-security/portswigger/access-control/01-insecure-direct-object-references.md) |
+| 2 | User ID controlled by request parameter | [02-user-id-request-parameter.md](./web-security/portswigger/access-control/02-user-id-request-parameter.md) |
+| 3 | ...with unpredictable user IDs | [03-unpredictable-ids.md](./web-security/portswigger/access-control/03-unpredictable-ids.md) |
+| 4 | ...with data leakage in redirect | [04-data-leakage-redirect.md](./web-security/portswigger/access-control/04-data-leakage-redirect.md) |
+| 5 | Unprotected admin functionality | [05-unprotected-admin.md](./web-security/portswigger/access-control/05-unprotected-admin.md) |
+| 6 | Unprotected admin functionality with unpredictable URL | [06-admin-url-js-leak.md](./web-security/portswigger/access-control/06-admin-url-js-leak.md) |
+| 7 | User role controlled by request parameter | [07-role-cookie.md](./web-security/portswigger/access-control/07-role-cookie.md) |
+
+### Cross-Site Scripting (XSS)
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Reflected XSS — HTML context, nothing encoded | [01-reflected-html-context.md](./web-security/portswigger/cross-site-scripting/01-reflected-html-context.md) |
+| 2 | Stored XSS — HTML context, nothing encoded | [02-stored-html-context.md](./web-security/portswigger/cross-site-scripting/02-stored-html-context.md) |
+
+## 🏆 Çözülen Lab'lar (özet)
+
+| Tarih | Platform | Konu | Lab | Seviye |
+|-------|----------|------|-----|--------|
+| 09.10.2026 | PortSwigger | Access Control | Insecure direct object references | Apprentice |
+| 10.10.2026 | PortSwigger | Access Control | User ID controlled by request parameter | Apprentice |
+| 11.10.2026 | PortSwigger | Access Control | ...with unpredictable user IDs | Apprentice |
+| 11.10.2026 | PortSwigger | Access Control | ...with data leakage in redirect | Apprentice |
+| 12.10.2026 | PortSwigger | Access Control | Unprotected admin functionality | Apprentice |
+| 14.10.2026 | PortSwigger | Access Control | Unprotected admin functionality with unpredictable URL | Apprentice |
+| 14.10.2026 | PortSwigger | Access Control | User role controlled by request parameter | Apprentice |
+| 15.10.2026 | PortSwigger | XSS | Reflected XSS into HTML context with nothing encoded | Apprentice |
+| 15.10.2026 | PortSwigger | XSS | Stored XSS into HTML context with nothing encoded | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- XSS: Stored XSS (saklanan, herkese çalışan), farklı context'ler (attribute, JS)
+- XSS: farklı context'ler (attribute, var olan JavaScript içine), encode edilen durumlar
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
 ---
