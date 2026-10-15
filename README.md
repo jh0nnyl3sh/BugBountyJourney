@@ -42,6 +42,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 10 | Access Control #5: Korumasız admin işlevi (robots.txt) | [konular/10-access-control-unprotected-admin.md](./konular/10-access-control-unprotected-admin.md) |
 | 11 | Access Control #6: Admin URL JavaScript'te sızıyor | [konular/11-access-control-admin-js-leak.md](./konular/11-access-control-admin-js-leak.md) |
 | 12 | Access Control #7: Rol çerezde kontrol ediliyor | [konular/12-access-control-role-cookie.md](./konular/12-access-control-role-cookie.md) |
+| 13 | XSS #1: Reflected, HTML context, nothing encoded | [konular/13-xss-reflected-html-context.md](./konular/13-xss-reflected-html-context.md) |
 | — | ⚖️ Etik Çizgi (her zaman cepte) | [konular/etik-cizgi.md](./konular/etik-cizgi.md) |
 
 ## 🏆 Çözülen Lab'lar
@@ -55,11 +56,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 12.10.2026 | PortSwigger | Unprotected admin functionality | Apprentice |
 | 14.10.2026 | PortSwigger | Unprotected admin functionality with unpredictable URL | Apprentice |
 | 14.10.2026 | PortSwigger | User role controlled by request parameter | Apprentice |
+| 15.10.2026 | PortSwigger | Reflected XSS into HTML context with nothing encoded | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- Access control: profilde rol değiştirme (role in user profile), yatay→dikey yükseltme
-- Ardından yeni zafiyet sınıfı: **XSS**
+- XSS: Stored XSS (saklanan, herkese çalışan), farklı context'ler (attribute, JS)
+- İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
 ---
 
