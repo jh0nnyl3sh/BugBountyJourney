@@ -72,6 +72,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | Reflected XSS — HTML context, nothing encoded | [01-reflected-html-context.md](./web-security/portswigger/cross-site-scripting/01-reflected-html-context.md) |
 | 2 | Stored XSS — HTML context, nothing encoded | [02-stored-html-context.md](./web-security/portswigger/cross-site-scripting/02-stored-html-context.md) |
+| 3 | Reflected XSS — attribute, angle brackets encoded | [03-attribute-angle-brackets-encoded.md](./web-security/portswigger/cross-site-scripting/03-attribute-angle-brackets-encoded.md) |
 
 ## 🏆 Çözülen Lab'lar (özet)
 
@@ -86,6 +87,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 14.10.2026 | PortSwigger | Access Control | User role controlled by request parameter | Apprentice |
 | 15.10.2026 | PortSwigger | XSS | Reflected XSS into HTML context with nothing encoded | Apprentice |
 | 15.10.2026 | PortSwigger | XSS | Stored XSS into HTML context with nothing encoded | Apprentice |
+| 16.10.2026 | PortSwigger | XSS | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
