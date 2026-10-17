@@ -2,8 +2,34 @@
 
 > Sıfırdan etik hacker'lığa / bug bounty avcılığına uzanan kişisel öğrenme yolculuğunun günlüğü.
 
-**Başlangıç:** 06.10.2026
-**Bir yıllık kontrol noktası:** 06.10.2027
+**Başlangıç:** 06.10.2026 · **Bir yıllık kontrol noktası:** 06.10.2027
+
+---
+
+## 📊 Scoreboard
+
+### ✅ Toplam Çözülen Lab: **11**
+
+| Konu | Çözülen | Durum |
+|------|:-------:|-------|
+| Access Control / IDOR | 7 | 🔄 devam ediyor |
+| Cross-Site Scripting (XSS) | 4 | 🔄 devam ediyor |
+| SQL Injection | 0 | ⏳ sırada |
+| SSRF | 0 | ⏳ sırada |
+| Authentication | 0 | ⏳ sırada |
+| CSRF | 0 | ⏳ sırada |
+
+### 🧭 İlerleme
+
+- [x] **Temeller** — Web/HTTP/DNS, oturum (session), Burp Suite
+- [x] **Etik çizgi** — scope & yetki refleksi
+- [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
+- [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅ · (DOM, stored-ileri sürüyor)
+- [ ] **SQL Injection**
+- [ ] **SSRF**
+- [ ] **Authentication zafiyetleri**
+- [ ] **CSRF**
+- [ ] **Python ile otomasyon** (payload/recon)
 
 ---
 
@@ -75,25 +101,25 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 3 | Reflected XSS — attribute, angle brackets encoded | [03-attribute-angle-brackets-encoded.md](./web-security/portswigger/cross-site-scripting/03-attribute-angle-brackets-encoded.md) |
 | 4 | Reflected XSS — JavaScript string breakout | [04-javascript-string-breakout.md](./web-security/portswigger/cross-site-scripting/04-javascript-string-breakout.md) |
 
-## 🏆 Çözülen Lab'lar (özet)
+## 🏆 Çözülen Lab'lar (kronolojik)
 
-| Tarih | Platform | Konu | Lab | Seviye |
-|-------|----------|------|-----|--------|
-| 09.10.2026 | PortSwigger | Access Control | Insecure direct object references | Apprentice |
-| 10.10.2026 | PortSwigger | Access Control | User ID controlled by request parameter | Apprentice |
-| 11.10.2026 | PortSwigger | Access Control | ...with unpredictable user IDs | Apprentice |
-| 11.10.2026 | PortSwigger | Access Control | ...with data leakage in redirect | Apprentice |
-| 12.10.2026 | PortSwigger | Access Control | Unprotected admin functionality | Apprentice |
-| 14.10.2026 | PortSwigger | Access Control | Unprotected admin functionality with unpredictable URL | Apprentice |
-| 14.10.2026 | PortSwigger | Access Control | User role controlled by request parameter | Apprentice |
-| 15.10.2026 | PortSwigger | XSS | Reflected XSS into HTML context with nothing encoded | Apprentice |
-| 15.10.2026 | PortSwigger | XSS | Stored XSS into HTML context with nothing encoded | Apprentice |
-| 16.10.2026 | PortSwigger | XSS | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice |
-| 17.10.2026 | PortSwigger | XSS | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice |
+| No | Tarih | Platform | Konu | Lab | Seviye |
+|:--:|-------|----------|------|-----|--------|
+| 1 | 09.10.2026 | PortSwigger | Access Control | Insecure direct object references | Apprentice |
+| 2 | 10.10.2026 | PortSwigger | Access Control | User ID controlled by request parameter | Apprentice |
+| 3 | 11.10.2026 | PortSwigger | Access Control | ...with unpredictable user IDs | Apprentice |
+| 4 | 11.10.2026 | PortSwigger | Access Control | ...with data leakage in redirect | Apprentice |
+| 5 | 12.10.2026 | PortSwigger | Access Control | Unprotected admin functionality | Apprentice |
+| 6 | 14.10.2026 | PortSwigger | Access Control | Unprotected admin functionality with unpredictable URL | Apprentice |
+| 7 | 14.10.2026 | PortSwigger | Access Control | User role controlled by request parameter | Apprentice |
+| 8 | 15.10.2026 | PortSwigger | XSS | Reflected XSS into HTML context with nothing encoded | Apprentice |
+| 9 | 15.10.2026 | PortSwigger | XSS | Stored XSS into HTML context with nothing encoded | Apprentice |
+| 10 | 16.10.2026 | PortSwigger | XSS | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice |
+| 11 | 17.10.2026 | PortSwigger | XSS | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- XSS: farklı context'ler (attribute, var olan JavaScript içine), encode edilen durumlar
+- XSS: diğer context'ler (DOM-based), encode/filtre atlatma
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
 ---
