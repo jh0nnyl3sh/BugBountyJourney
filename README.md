@@ -8,12 +8,12 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **12**
+### ✅ Toplam Çözülen Lab: **13**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
-| Cross-Site Scripting (XSS) | 5 | 🔄 devam ediyor |
+| Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
 | SQL Injection | 0 | ⏳ sırada |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
@@ -101,6 +101,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 3 | Reflected XSS — attribute, angle brackets encoded | [03-attribute-angle-brackets-encoded.md](./web-security/portswigger/cross-site-scripting/03-attribute-angle-brackets-encoded.md) |
 | 4 | Reflected XSS — JavaScript string breakout | [04-javascript-string-breakout.md](./web-security/portswigger/cross-site-scripting/04-javascript-string-breakout.md) |
 | 5 | DOM XSS — document.write sink (source: location.search) | [05-dom-xss-document-write.md](./web-security/portswigger/cross-site-scripting/05-dom-xss-document-write.md) |
+| 6 | DOM XSS — innerHTML sink (source: location.search) | [06-innerhtml-sink.md](./web-security/portswigger/cross-site-scripting/06-innerhtml-sink.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -118,10 +119,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 10 | 16.10.2026 | PortSwigger | XSS | Reflected XSS into attribute with angle brackets HTML-encoded | Apprentice |
 | 11 | 17.10.2026 | PortSwigger | XSS | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice |
 | 12 | 18.10.2026 | PortSwigger | XSS | DOM XSS in document.write sink using source location.search | Apprentice |
+| 13 | 20.10.2026 | PortSwigger | XSS | DOM XSS in innerHTML sink using source location.search | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
-- XSS: DOM-based ileri sink'ler (innerHTML, eval, jQuery), stored/filtre atlatma
+- XSS: DOM-based diğer sink'ler (eval, jQuery `$()`/.html()), stored/filtre atlatma
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
 ---
