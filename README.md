@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **13**
+### ✅ Toplam Çözülen Lab: **14**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
-| SQL Injection | 0 | ⏳ sırada |
+| SQL Injection | 1 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection**
+- [ ] **SQL Injection** — WHERE clause / hidden data ✅ · (auth bypass, UNION sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -60,7 +60,8 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 └── web-security/
     └── portswigger/              platform
         ├── access-control/       konu
-        └── cross-site-scripting/ konu
+        ├── cross-site-scripting/ konu
+        └── sql-injection/         konu
 ```
 
 İleride TryHackMe, HackTheBox gibi platformlar `web-security/` altına; web dışı alanlar ise `web-security`'nin kardeşi olarak eklenir.
@@ -103,6 +104,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 5 | DOM XSS — document.write sink (source: location.search) | [05-dom-xss-document-write.md](./web-security/portswigger/cross-site-scripting/05-dom-xss-document-write.md) |
 | 6 | DOM XSS — innerHTML sink (source: location.search) | [06-innerhtml-sink.md](./web-security/portswigger/cross-site-scripting/06-innerhtml-sink.md) |
 
+### SQL Injection
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | SQLi in WHERE clause — retrieving hidden data | [01-where-clause-hidden-data.md](./web-security/portswigger/sql-injection/01-where-clause-hidden-data.md) |
+
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
 | No | Tarih | Platform | Konu | Lab | Seviye |
@@ -120,9 +127,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 11 | 17.10.2026 | PortSwigger | XSS | Reflected XSS into a JavaScript string with angle brackets HTML encoded | Apprentice |
 | 12 | 18.10.2026 | PortSwigger | XSS | DOM XSS in document.write sink using source location.search | Apprentice |
 | 13 | 20.10.2026 | PortSwigger | XSS | DOM XSS in innerHTML sink using source location.search | Apprentice |
+| 14 | 22.10.2026 | PortSwigger | SQL Injection | SQLi in WHERE clause allowing retrieval of hidden data | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
+- SQL Injection: auth bypass (login formu), UNION attacks (başka tablolardan veri çekme)
 - XSS: DOM-based diğer sink'ler (eval, jQuery `$()`/.html()), stored/filtre atlatma
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
