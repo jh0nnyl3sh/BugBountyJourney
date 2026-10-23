@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **15**
+### ✅ Toplam Çözülen Lab: **16**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
-| SQL Injection | 2 | 🔄 devam ediyor |
+| SQL Injection | 3 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection** — hidden data ✅, login bypass ✅ · (UNION sürüyor)
+- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION: sütun sayısı ✅ · (text sütunu, veri çekme sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -110,6 +110,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | SQLi in WHERE clause — retrieving hidden data | [01-where-clause-hidden-data.md](./web-security/portswigger/sql-injection/01-where-clause-hidden-data.md) |
 | 2 | SQLi authentication / login bypass | [02-login-bypass.md](./web-security/portswigger/sql-injection/02-login-bypass.md) |
+| 3 | UNION attack — sütun sayısını belirleme | [03-union-determine-columns.md](./web-security/portswigger/sql-injection/03-union-determine-columns.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -130,10 +131,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 13 | 20.10.2026 | PortSwigger | XSS | DOM XSS in innerHTML sink using source location.search | Apprentice |
 | 14 | 22.10.2026 | PortSwigger | SQL Injection | SQLi in WHERE clause allowing retrieval of hidden data | Apprentice |
 | 15 | 23.10.2026 | PortSwigger | SQL Injection | SQLi vulnerability allowing login bypass | Apprentice |
+| 16 | 23.10.2026 | PortSwigger | SQL Injection | UNION attack: determining the number of columns | **Practitioner** |
 
 ## 🔜 Sıradaki Adım
 
-- SQL Injection: UNION attacks (başka tablolardan veri çekme), DB türünü belirleme
+- SQL Injection: UNION — metin tutan sütunu bulma, başka tablolardan veri çekme, DB türünü belirleme
 - XSS: DOM-based diğer sink'ler (eval, jQuery `$()`/.html()), stored/filtre atlatma
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
