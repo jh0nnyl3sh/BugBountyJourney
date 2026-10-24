@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **17**
+### ✅ Toplam Çözülen Lab: **18**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
-| SQL Injection | 4 | 🔄 devam ediyor |
+| SQL Injection | 5 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION: sütun sayısı ✅ + text sütunu ✅ · (veri çekme sürüyor)
+- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION tam zincir ✅ (sütun sayısı → text sütunu → veri çekme) · (DB keşfi, blind sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -112,6 +112,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 2 | SQLi authentication / login bypass | [02-login-bypass.md](./web-security/portswigger/sql-injection/02-login-bypass.md) |
 | 3 | UNION attack — sütun sayısını belirleme | [03-union-determine-columns.md](./web-security/portswigger/sql-injection/03-union-determine-columns.md) |
 | 4 | UNION attack — metin tutan sütunu bulma | [04-union-find-text-column.md](./web-security/portswigger/sql-injection/04-union-find-text-column.md) |
+| 5 | UNION attack — başka tablodan veri çekme | [05-union-retrieve-data.md](./web-security/portswigger/sql-injection/05-union-retrieve-data.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -134,10 +135,11 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 15 | 23.10.2026 | PortSwigger | SQL Injection | SQLi vulnerability allowing login bypass | Apprentice |
 | 16 | 23.10.2026 | PortSwigger | SQL Injection | UNION attack: determining the number of columns | **Practitioner** |
 | 17 | 24.10.2026 | PortSwigger | SQL Injection | UNION attack: finding a column containing text | **Practitioner** |
+| 18 | 24.10.2026 | PortSwigger | SQL Injection | UNION attack: retrieving data from other tables | **Practitioner** |
 
 ## 🔜 Sıradaki Adım
 
-- SQL Injection: UNION — başka tablolardan veri çekme (username/password), tek sütunda çoklu değer, DB türünü belirleme
+- SQL Injection: tek sütunda çoklu değer (concat), DB türü/sürümünü belirleme, veritabanı yapısını keşfetme, blind SQLi
 - XSS: DOM-based diğer sink'ler (eval, jQuery `$()`/.html()), stored/filtre atlatma
 - İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
 
