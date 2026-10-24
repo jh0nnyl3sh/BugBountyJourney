@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **18**
+### ✅ Toplam Çözülen Lab: **19**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
-| SQL Injection | 5 | 🔄 devam ediyor |
+| SQL Injection | 6 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION tam zincir ✅ (sütun sayısı → text sütunu → veri çekme) · (DB keşfi, blind sürüyor)
+- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION tam zincir ✅, DB fingerprint (Oracle) ✅ · (yapı keşfi, blind sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -113,6 +113,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 3 | UNION attack — sütun sayısını belirleme | [03-union-determine-columns.md](./web-security/portswigger/sql-injection/03-union-determine-columns.md) |
 | 4 | UNION attack — metin tutan sütunu bulma | [04-union-find-text-column.md](./web-security/portswigger/sql-injection/04-union-find-text-column.md) |
 | 5 | UNION attack — başka tablodan veri çekme | [05-union-retrieve-data.md](./web-security/portswigger/sql-injection/05-union-retrieve-data.md) |
+| 6 | Examining DB — tür/sürüm belirleme (Oracle) | [06-db-version-oracle.md](./web-security/portswigger/sql-injection/06-db-version-oracle.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -136,6 +137,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 16 | 23.10.2026 | PortSwigger | SQL Injection | UNION attack: determining the number of columns | **Practitioner** |
 | 17 | 24.10.2026 | PortSwigger | SQL Injection | UNION attack: finding a column containing text | **Practitioner** |
 | 18 | 24.10.2026 | PortSwigger | SQL Injection | UNION attack: retrieving data from other tables | **Practitioner** |
+| 19 | 24.10.2026 | PortSwigger | SQL Injection | Querying the database type and version (Oracle) | **Practitioner** |
 
 ## 🔜 Sıradaki Adım
 
