@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **21**
+### ✅ Toplam Çözülen Lab: **22**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
-| SQL Injection | 8 | 🔄 devam ediyor |
+| SQL Injection | 9 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, blind: conditional responses ✅ (+Python otomasyon) · (conditional errors, time-based sürüyor)
+- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, blind: conditional responses ✅ + conditional errors ✅ (+Python) · (time-based, OAST sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -116,6 +116,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 6 | Examining DB — tür/sürüm belirleme (Oracle) | [06-db-version-oracle.md](./web-security/portswigger/sql-injection/06-db-version-oracle.md) |
 | 7 | Examining DB — yapıyı kazıma (information_schema) | [07-listing-db-contents-non-oracle.md](./web-security/portswigger/sql-injection/07-listing-db-contents-non-oracle.md) |
 | 8 | Blind — conditional responses (+Python) | [08-blind-conditional-responses.md](./web-security/portswigger/sql-injection/08-blind-conditional-responses.md) |
+| 9 | Blind — conditional errors (Oracle, +Python) | [09-blind-conditional-errors.md](./web-security/portswigger/sql-injection/09-blind-conditional-errors.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -142,6 +143,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 19 | 24.10.2026 | PortSwigger | SQL Injection | Querying the database type and version (Oracle) | **Practitioner** |
 | 20 | 26.10.2026 | PortSwigger | SQL Injection | Listing the database contents on non-Oracle databases | **Practitioner** |
 | 21 | 29.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional responses | **Practitioner** |
+| 22 | 30.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional errors | **Practitioner** |
 
 ## 🔜 Sıradaki Adım
 
