@@ -57,11 +57,12 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 ```
 .
 ├── temeller/                     platform-bağımsız bilgi (konseptler)
-└── web-security/
-    └── portswigger/              platform
-        ├── access-control/       konu
-        ├── cross-site-scripting/ konu
-        └── sql-injection/         konu
+├── web-security/
+│   └── portswigger/              platform
+│       ├── access-control/       konu
+│       ├── cross-site-scripting/ konu
+│       └── sql-injection/         konu
+└── ilerleme/                     milestone öz-değerlendirmeleri
 ```
 
 İleride TryHackMe, HackTheBox gibi platformlar `web-security/` altına; web dışı alanlar ise `web-security`'nin kardeşi olarak eklenir.
@@ -146,6 +147,14 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 21 | 29.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional responses | **Practitioner** |
 | 22 | 30.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional errors | **Practitioner** |
 | 23 | 30.10.2026 | PortSwigger | XSS | Stored XSS into anchor href attribute (javascript: scheme) | Apprentice |
+
+## 📈 Öz-değerlendirme (milestone)
+
+Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak için.
+
+| Gün | Not |
+|-----|-----|
+| 25 | [gun-25-degerlendirme.md](./ilerleme/gun-25-degerlendirme.md) |
 
 ## 🔜 Sıradaki Adım
 
