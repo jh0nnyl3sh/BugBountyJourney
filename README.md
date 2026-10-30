@@ -8,12 +8,12 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **22**
+### ✅ Toplam Çözülen Lab: **23**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
-| Cross-Site Scripting (XSS) | 6 | 🔄 devam ediyor |
+| Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
 | SQL Injection | 9 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
@@ -103,6 +103,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 4 | Reflected XSS — JavaScript string breakout | [04-javascript-string-breakout.md](./web-security/portswigger/cross-site-scripting/04-javascript-string-breakout.md) |
 | 5 | DOM XSS — document.write sink (source: location.search) | [05-dom-xss-document-write.md](./web-security/portswigger/cross-site-scripting/05-dom-xss-document-write.md) |
 | 6 | DOM XSS — innerHTML sink (source: location.search) | [06-innerhtml-sink.md](./web-security/portswigger/cross-site-scripting/06-innerhtml-sink.md) |
+| 7 | Anchor href — javascript: şeması (breakout kapalı) | [07-href-javascript-scheme.md](./web-security/portswigger/cross-site-scripting/07-href-javascript-scheme.md) |
 
 ### SQL Injection
 
@@ -144,6 +145,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 20 | 26.10.2026 | PortSwigger | SQL Injection | Listing the database contents on non-Oracle databases | **Practitioner** |
 | 21 | 29.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional responses | **Practitioner** |
 | 22 | 30.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional errors | **Practitioner** |
+| 23 | 30.10.2026 | PortSwigger | XSS | Stored XSS into anchor href attribute (javascript: scheme) | Apprentice |
 
 ## 🔜 Sıradaki Adım
 
