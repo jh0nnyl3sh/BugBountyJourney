@@ -158,6 +158,8 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 |-----|-----|
 | 25 | [gun-25-degerlendirme.md](./ilerleme/gun-25-degerlendirme.md) |
 
+**İlgi pusulası (hangi alana yatkınım):** [ilgi-pusulasi.md](./ilerleme/ilgi-pusulasi.md)
+
 ## 🔜 Sıradaki Adım
 
 - SQL Injection blind: conditional errors, time-based (zaman gecikmesi), out-of-band (OAST)
