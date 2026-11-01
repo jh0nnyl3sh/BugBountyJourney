@@ -8,13 +8,13 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **24**
+### ✅ Toplam Çözülen Lab: **25**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
-| SQL Injection | 10 | 🔄 devam ediyor |
+| SQL Injection | 11 | 🔄 devam ediyor |
 | SSRF | 0 | ⏳ sırada |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
@@ -25,7 +25,7 @@
 - [x] **Etik çizgi** — scope & yetki refleksi
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
-- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, blind: responses ✅ + errors ✅ + time-delays ✅ (+Python) · (time-based info-retrieval, OAST sürüyor)
+- [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, **blind tam** (responses + errors + time + info-retrieval) ✅ (+Python) · (filtre/WAF atlatma, OAST sürüyor)
 - [ ] **SSRF**
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
@@ -120,6 +120,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 8 | Blind — conditional responses (+Python) | [08-blind-conditional-responses.md](./web-security/portswigger/sql-injection/08-blind-conditional-responses.md) |
 | 9 | Blind — conditional errors (Oracle, +Python) | [09-blind-conditional-errors.md](./web-security/portswigger/sql-injection/09-blind-conditional-errors.md) |
 | 10 | Blind — time delays (PostgreSQL) | [10-blind-time-delays.md](./web-security/portswigger/sql-injection/10-blind-time-delays.md) |
+| 11 | Blind — time delays + info retrieval (PostgreSQL, +Python) | [11-blind-time-delays-info-retrieval.md](./web-security/portswigger/sql-injection/11-blind-time-delays-info-retrieval.md) |
 
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
@@ -149,6 +150,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 22 | 30.10.2026 | PortSwigger | SQL Injection | Blind SQLi with conditional errors | **Practitioner** |
 | 23 | 30.10.2026 | PortSwigger | XSS | Stored XSS into anchor href attribute (javascript: scheme) | Apprentice |
 | 24 | 01.11.2026 | PortSwigger | SQL Injection | Blind SQLi with time delays | **Practitioner** |
+| 25 | 01.11.2026 | PortSwigger | SQL Injection | Blind SQLi with time delays and information retrieval | **Practitioner** |
 
 ## 📈 Öz-değerlendirme (milestone)
 
