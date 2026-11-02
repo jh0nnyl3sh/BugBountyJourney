@@ -15,3 +15,4 @@
 | Lab | Keyif | En sevdiğim / en sıkıcı an |
 |-----|:-----:|-----------------------------|
 | Blind SQLi (genel: responses/errors/time) | 5 | Sevdi: şifreyi ele geçirme avı + script yazma. Angarya: yok. |
+| SSRF #1 (basic, localhost) | 4 | Sevdi: sunucuyu kandırıp erişilemez admin paneline ulaşmak ("erişilemeze erişmek"). |

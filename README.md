@@ -8,14 +8,14 @@
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **25**
+### ✅ Toplam Çözülen Lab: **26**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
 | SQL Injection | 11 | 🔄 devam ediyor |
-| SSRF | 0 | ⏳ sırada |
+| SSRF | 1 | 🔄 devam ediyor |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
 
@@ -26,7 +26,7 @@
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
 - [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, **blind tam** (responses + errors + time + info-retrieval) ✅ (+Python) · (filtre/WAF atlatma, OAST sürüyor)
-- [ ] **SSRF**
+- [ ] **SSRF** — basic (localhost, iç admin paneli) ✅ · (iç ağ tarama, filtre atlatma sürüyor)
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
@@ -61,7 +61,8 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 │   └── portswigger/              platform
 │       ├── access-control/       konu
 │       ├── cross-site-scripting/ konu
-│       └── sql-injection/         konu
+│       ├── sql-injection/         konu
+│       └── ssrf/                  konu
 └── ilerleme/                     milestone öz-değerlendirmeleri
 ```
 
@@ -122,6 +123,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 10 | Blind — time delays (PostgreSQL) | [10-blind-time-delays.md](./web-security/portswigger/sql-injection/10-blind-time-delays.md) |
 | 11 | Blind — time delays + info retrieval (PostgreSQL, +Python) | [11-blind-time-delays-info-retrieval.md](./web-security/portswigger/sql-injection/11-blind-time-delays-info-retrieval.md) |
 
+### SSRF
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Basic SSRF against the local server | [01-basic-ssrf-localhost.md](./web-security/portswigger/ssrf/01-basic-ssrf-localhost.md) |
+
 ## 🏆 Çözülen Lab'lar (kronolojik)
 
 | No | Tarih | Platform | Konu | Lab | Seviye |
@@ -151,6 +158,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 23 | 30.10.2026 | PortSwigger | XSS | Stored XSS into anchor href attribute (javascript: scheme) | Apprentice |
 | 24 | 01.11.2026 | PortSwigger | SQL Injection | Blind SQLi with time delays | **Practitioner** |
 | 25 | 01.11.2026 | PortSwigger | SQL Injection | Blind SQLi with time delays and information retrieval | **Practitioner** |
+| 26 | 02.11.2026 | PortSwigger | SSRF | Basic SSRF against the local server | Apprentice |
 
 ## 📈 Öz-değerlendirme (milestone)
 
