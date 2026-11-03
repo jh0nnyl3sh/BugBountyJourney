@@ -12,6 +12,8 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
+**Başlangıç:** 06.10.2026 · **Gün:** 29. · **Aktif gün:** 20 (%69) · **Çözülen lab:** 26 · **Aktif güne ort.:** 1.3 lab
+
 ## 📊 Scoreboard
 
 ### ✅ Toplam Çözülen Lab: **26**
