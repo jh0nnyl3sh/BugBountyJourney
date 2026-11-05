@@ -32,3 +32,4 @@
 | 26 | 02.11.2026 | PortSwigger | SSRF | Basic SSRF against the local server | Apprentice |
 | 27 | 03.11.2026 | PortSwigger | SSRF | Basic SSRF against another back-end system | Apprentice |
 | 28 | 04.11.2026 | PortSwigger | SSRF | SSRF with blacklist-based input filter | **Practitioner** |
+| 29 | 05.11.2026 | PortSwigger | SSRF | SSRF with whitelist-based input filter | **Expert** |

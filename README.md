@@ -12,18 +12,18 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 30. · **Aktif gün:** 22 (%73) · **Çözülen lab:** 28 · **Aktif güne ort.:** 1.3 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 31. · **Aktif gün:** 23 (%74) · **Çözülen lab:** 29 · **Aktif güne ort.:** 1.3 lab
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **28**
+### ✅ Toplam Çözülen Lab: **29**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Access Control / IDOR | 7 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
 | SQL Injection | 11 | 🔄 devam ediyor |
-| SSRF | 3 | 🔄 devam ediyor |
+| SSRF | 4 | 🔄 devam ediyor |
 | Authentication | 0 | ⏳ sırada |
 | CSRF | 0 | ⏳ sırada |
 
@@ -34,7 +34,7 @@
 - [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
 - [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, **blind tam** (responses + errors + time + info-retrieval) ✅ (+Python) · (filtre/WAF atlatma, OAST sürüyor)
-- [ ] **SSRF** — basic localhost ✅ + iç ağ tarama ✅ + blacklist atlatma ✅ · (devam ediyor)
+- [ ] **SSRF** — localhost ✅, iç ağ tarama ✅, blacklist ✅, whitelist atlatma (Expert) ✅ · (devam ediyor)
 - [ ] **Authentication zafiyetleri**
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
@@ -138,6 +138,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 1 | Basic SSRF against the local server | [01-basic-ssrf-localhost.md](./web-security/portswigger/ssrf/01-basic-ssrf-localhost.md) |
 | 2 | Basic SSRF against another back-end system (iç ağ tarama) | [02-against-backend-system.md](./web-security/portswigger/ssrf/02-against-backend-system.md) |
 | 3 | SSRF — blacklist (filtre) atlatma | [03-blacklist-filter-bypass.md](./web-security/portswigger/ssrf/03-blacklist-filter-bypass.md) |
+| 4 | SSRF — whitelist atlatma (parser disagreement) | [04-whitelist-filter-bypass.md](./web-security/portswigger/ssrf/04-whitelist-filter-bypass.md) |
 
 ## 🏆 Çözülen Lab'lar
 
