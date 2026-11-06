@@ -18,3 +18,5 @@
 | SSRF #1 (basic, localhost) | 4 | Sevdi: sunucuyu kandırıp erişilemez admin paneline ulaşmak ("erişilemeze erişmek"). |
 | SSRF #2 (iç ağ tarama) | 4 | Uğraştırdı (Intruder engeli→Python, anomali avı) ama keyifliydi; iç ağda gizli host bulmak. |
 | SSRF #3 (blacklist atlatma) | 4 | "Yasak olanın cazibesi" — filtreyi kılık değiştirerek aşmak; zor sanıp hızlı çözmek. |
+| SSRF #4 (whitelist, Expert) | 4 | İlk Expert; parser disagreement. Çok zordu, tek başına bulamadı ama mantığı sevdi. |
+| Command Injection #1 (simple) | 5 | İLK 5. Sunucuda komut çalıştırıp dosya sistemine daldı (cd/ls). "Bayıldım." Zirve offensive keyfi. |
