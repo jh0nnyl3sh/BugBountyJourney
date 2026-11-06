@@ -167,9 +167,18 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 
 ## 🔜 Sıradaki Adım
 
-- SQL Injection blind: conditional errors, time-based (zaman gecikmesi), out-of-band (OAST)
-- XSS: DOM-based diğer sink'ler (eval, jQuery `$()`/.html()), stored/filtre atlatma
-- İleride: XSS payload'larını otomatikleştirme (Python), context'e göre payload seçimi
+- **OS Command Injection:** blind (output yönlendirme, time delay, OAST)
+- **SSRF:** kalan türler (open-redirect ile atlatma, blind SSRF)
+- **Yeni sınıflar:** Authentication, CSRF, file upload, SSTI, IDOR/access-control derinliği, info disclosure
+
+## 🌉 Lab → Gerçek Hedefe Geçiş (köprü)
+
+Hedef (06.10.2027): **ilk geçerli VDP raporu** — para değil, valid bulgu. Önce para ödülsüz, saygınlık veren VDP'ler.
+
+- **Recon & Metodoloji modülü:** scope okuma, subdomain enumeration, content discovery, uygulama haritalama; recon tooling (subfinder, httpx, ffuf, nuclei) + Burp'te derinleşme. (Lab zafiyetin yerini verir; gerçek hedefte yeri SEN bulacaksın.)
+- **Haftada 1 disclosed report** (HackerOne Hacktivity) — birlikte okuyup çıkarımı [ilerleme/disclosed-report-gunlugu.md](./ilerleme/disclosed-report-gunlugu.md)'ye yazıyoruz.
+- **Odak dengesi:** pusula offensive'i gösteriyor; ama acemi için "kolay gerçek bulgular" genelde **IDOR / info disclosure** — onları da güçlendir.
+- **Zihin:** gerçek hedefte günlerce boş dönmek normaldir; dayanıklılık da bir beceri.
 
 ---
 
