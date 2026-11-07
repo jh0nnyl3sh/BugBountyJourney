@@ -34,3 +34,4 @@
 | 28 | 04.11.2026 | PortSwigger | SSRF | SSRF with blacklist-based input filter | **Practitioner** |
 | 29 | 05.11.2026 | PortSwigger | SSRF | SSRF with whitelist-based input filter | **Expert** |
 | 30 | 06.11.2026 | PortSwigger | OS Command Injection | OS command injection, simple case | Apprentice |
+| 31 | 07.11.2026 | PortSwigger | Access Control | User ID param + password disclosure | Apprentice |

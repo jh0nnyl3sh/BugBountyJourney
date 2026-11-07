@@ -12,15 +12,15 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 32. · **Aktif gün:** 24 (%75) · **Çözülen lab:** 30 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 33. · **Aktif gün:** 25 (%76) · **Çözülen lab:** 31 · **Aktif güne ort.:** 1.2 lab
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **30**
+### ✅ Toplam Çözülen Lab: **31**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
-| Access Control / IDOR | 7 | 🔄 devam ediyor |
+| Access Control / IDOR | 8 | 🔄 devam ediyor |
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
 | SQL Injection | 11 | 🔄 devam ediyor |
 | SSRF | 4 | 🔄 devam ediyor |
@@ -32,7 +32,7 @@
 
 - [x] **Temeller** — Web/HTTP/DNS, oturum (session), Burp Suite
 - [x] **Etik çizgi** — scope & yetki refleksi
-- [x] **Access Control / IDOR** — veri + işlev/rol ekseni (7 lab)
+- [x] **Access Control / IDOR** — veri + işlev/rol ekseni, IDOR + password disclosure (8 lab)
 - [ ] **XSS** — context'ler: HTML ✅, attribute ✅, JS string ✅, DOM ✅ · (stored-ileri, filtre atlatma sürüyor)
 - [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, **blind tam** (responses + errors + time + info-retrieval) ✅ (+Python) · (filtre/WAF atlatma, OAST sürüyor)
 - [ ] **SSRF** — localhost ✅, iç ağ tarama ✅, blacklist ✅, whitelist atlatma (Expert) ✅ · (devam ediyor)
@@ -105,6 +105,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 5 | Unprotected admin functionality | [05-unprotected-admin.md](./web-security/portswigger/access-control/05-unprotected-admin.md) |
 | 6 | Unprotected admin functionality with unpredictable URL | [06-admin-url-js-leak.md](./web-security/portswigger/access-control/06-admin-url-js-leak.md) |
 | 7 | User role controlled by request parameter | [07-role-cookie.md](./web-security/portswigger/access-control/07-role-cookie.md) |
+| 8 | User ID param + password disclosure (IDOR zinciri) | [08-user-id-param-password-disclosure.md](./web-security/portswigger/access-control/08-user-id-param-password-disclosure.md) |
 
 ### Cross-Site Scripting (XSS)
 
