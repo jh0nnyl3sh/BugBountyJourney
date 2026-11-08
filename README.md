@@ -12,11 +12,11 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 33. · **Aktif gün:** 25 (%76) · **Çözülen lab:** 31 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 34. · **Aktif gün:** 26 (%76) · **Çözülen lab:** 32 · **Aktif güne ort.:** 1.2 lab
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **31**
+### ✅ Toplam Çözülen Lab: **32**
 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
@@ -25,7 +25,7 @@
 | SQL Injection | 11 | 🔄 devam ediyor |
 | SSRF | 4 | 🔄 devam ediyor |
 | OS Command Injection | 1 | 🔄 devam ediyor |
-| Authentication | 0 | ⏳ sırada |
+| Authentication | 1 | 🔄 devam ediyor |
 | CSRF | 0 | ⏳ sırada |
 
 ### 🧭 İlerleme
@@ -37,7 +37,7 @@
 - [ ] **SQL Injection** — hidden data ✅, login bypass ✅, UNION ✅, DB fingerprint ✅, yapı keşfi ✅, **blind tam** (responses + errors + time + info-retrieval) ✅ (+Python) · (filtre/WAF atlatma, OAST sürüyor)
 - [ ] **SSRF** — localhost ✅, iç ağ tarama ✅, blacklist ✅, whitelist atlatma (Expert) ✅ · (devam ediyor)
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
-- [ ] **Authentication zafiyetleri**
+- [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
 
@@ -73,7 +73,8 @@ Web uygulama güvenliğinde sağlam bir temel kurup, izinli ve etik sınırlar i
 │       ├── cross-site-scripting/ konu
 │       ├── sql-injection/         konu
 │       ├── ssrf/                  konu
-│       └── os-command-injection/  konu
+│       ├── os-command-injection/  konu
+│       └── authentication/        konu
 └── ilerleme/                     milestone öz-değerlendirmeleri
 ```
 
@@ -149,6 +150,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | # | Lab | Dosya |
 |---|-----|-------|
 | 1 | OS command injection, simple case (RCE) | [01-simple-case.md](./web-security/portswigger/os-command-injection/01-simple-case.md) |
+
+### Authentication
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Username enumeration via different responses (+Python) | [01-username-enumeration-different-responses.md](./web-security/portswigger/authentication/01-username-enumeration-different-responses.md) |
 
 ## 🏆 Çözülen Lab'lar
 

@@ -40,7 +40,7 @@
 <rect x="94" y="86" width="13" height="13" rx="2" fill="#9be9a8"><title>2026-11-05: 1</title></rect>
 <rect x="94" y="102" width="13" height="13" rx="2" fill="#216e39"><title>2026-11-06: 5</title></rect>
 <rect x="94" y="118" width="13" height="13" rx="2" fill="#9be9a8"><title>2026-11-07: 1</title></rect>
-<rect x="110" y="22" width="13" height="13" rx="2" fill="#ebedf0"><title>2026-11-08: 0</title></rect>
+<rect x="110" y="22" width="13" height="13" rx="2" fill="#9be9a8"><title>2026-11-08: 1</title></rect>
 <rect x="110" y="38" width="13" height="13" rx="2" fill="#ebedf0"><title>2026-11-09: 0</title></rect>
 <rect x="110" y="54" width="13" height="13" rx="2" fill="#ebedf0"><title>2026-11-10: 0</title></rect>
 <rect x="110" y="70" width="13" height="13" rx="2" fill="#ebedf0"><title>2026-11-11: 0</title></rect>
@@ -394,5 +394,5 @@
 <rect x="97" y="140" width="13" height="13" rx="2" fill="#30a14e"/>
 <rect x="112" y="140" width="13" height="13" rx="2" fill="#216e39"/>
 <text x="129" y="150" fill="#767676">Çok</text>
-<text x="672" y="150" fill="#767676">06.10.2026 → 06.10.2027 · 25 aktif gün</text>
+<text x="672" y="150" fill="#767676">06.10.2026 → 06.10.2027 · 26 aktif gün</text>
 </svg>
