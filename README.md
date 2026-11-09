@@ -18,15 +18,48 @@
 
 ### ✅ Toplam Çözülen Lab: **32**
 
+Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
+
+**🖥️ Server-side**
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
-| Access Control / IDOR | 8 | 🔄 devam ediyor |
-| Cross-Site Scripting (XSS) | 7 | 🔄 devam ediyor |
-| SQL Injection | 11 | 🔄 devam ediyor |
-| SSRF | 4 | 🔄 devam ediyor |
-| OS Command Injection | 1 | 🔄 devam ediyor |
-| Authentication | 1 | 🔄 devam ediyor |
+| SQL Injection | 11 | 🔄 devam |
+| Access Control / IDOR | 8 | 🔄 devam |
+| SSRF | 4 | 🔄 devam |
+| Authentication | 1 | 🔄 devam |
+| OS Command Injection | 1 | 🔄 devam |
+| Path Traversal | 0 | ⏳ sırada |
+| File Upload | 0 | ⏳ sırada |
+| Business Logic | 0 | ⏳ sırada |
+| Information Disclosure | 0 | ⏳ sırada |
+| XXE Injection | 0 | ⏳ sırada |
+| NoSQL Injection | 0 | ⏳ sırada |
+| Race Conditions | 0 | ⏳ sırada |
+| API Testing | 0 | ⏳ sırada |
+
+**🌐 Client-side**
+| Konu | Çözülen | Durum |
+|------|:-------:|-------|
+| Cross-Site Scripting (XSS) | 7 | 🔄 devam |
 | CSRF | 0 | ⏳ sırada |
+| CORS | 0 | ⏳ sırada |
+| Clickjacking | 0 | ⏳ sırada |
+| WebSockets | 0 | ⏳ sırada |
+
+**🧩 İleri seviye**
+| Konu | Çözülen | Durum |
+|------|:-------:|-------|
+| JWT | 0 | ⏳ sırada |
+| OAuth | 0 | ⏳ sırada |
+| Insecure Deserialization | 0 | ⏳ sırada |
+| HTTP Host Header | 0 | ⏳ sırada |
+| HTTP Request Smuggling | 0 | ⏳ sırada |
+| Web Cache Poisoning | 0 | ⏳ sırada |
+| Prototype Pollution | 0 | ⏳ sırada |
+| GraphQL | 0 | ⏳ sırada |
+| Web LLM Attacks | 0 | ⏳ sırada |
+
+> ~25 konudan **6'sı başladı.** Hem genişlik hem derinlik önde — 35. gün için sağlam bir başlangıç, "bitmek üzere" değil.
 
 ### 🧭 İlerleme
 
