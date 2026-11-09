@@ -22,3 +22,4 @@
 | Command Injection #1 (simple) | 5 | İLK 5. Sunucuda komut çalıştırıp dosya sistemine daldı (cd/ls). "Bayıldım." Zirve offensive keyfi. |
 | Access Control (IDOR+pw disclosure) | 4 | IDOR zincirini kendi başına kurdu (inspect→şifre→admin). Gerçek-hedef giriş sınıfı. |
 | Authentication #1 (username enum + brute) | 4 | Python brute-force "havalı ve zevkli". İki aşamalı kendi scripti. Takıntı: file-I/O + param swap. |
+| Information Disclosure #1 (error message leak) | 4 | Tarayıcıdan hızlı çözdü (Burp bile gerekmedi); productId=a -> stack trace -> sürüm. Keyifli: "error'a zorla, sızıntıyı oku" recon refleksi; saha girişine en yakın his. |
