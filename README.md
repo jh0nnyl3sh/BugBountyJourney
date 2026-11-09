@@ -14,6 +14,18 @@
 
 **Başlangıç:** 06.10.2026 · **Gün:** 34. · **Aktif gün:** 26 (%76) · **Çözülen lab:** 32 · **Aktif güne ort.:** 1.2 lab
 
+## 🎯 Öncelik Sırası (sahaya hazırlık)
+
+Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en çok zamanı en üstteki tier'a ver. (Genel müfredat aşağıda tam duruyor — bu, *günlük seçimi* yönlendirir, "boşa kürek" olmasın.)
+
+- **🥇 Tier 1 (en çok zaman):** XSS · Access Control/IDOR · Information Disclosure · CSRF · SSRF · Business Logic
+- **🥈 Tier 2:** Authentication · Open Redirect · File Upload · Path Traversal · SQLi · API/GraphQL · Security Misconfiguration
+- **🥉 Tier 3 (niş, yüksek değer, ileride):** Command Injection/RCE · XXE · SSTI · Insecure Deserialization · JWT/OAuth · HTTP Request Smuggling · Web Cache Poisoning · Prototype Pollution · Race Conditions
+
+*Kaynak: HackerOne Top 10 + Bugcrowd/sektör trendi (frekans yıla göre oynar).* Offensive/RCE sevgisi Tier 3'te — derinlik/yüksek değer için saklı; ekmek Tier 1'den.
+
+---
+
 ## 📊 Scoreboard
 
 ### ✅ Toplam Çözülen Lab: **32**
@@ -218,6 +230,7 @@ Hedef (06.10.2027): **ilk geçerli VDP raporu** — para değil, valid bulgu. Ö
 
 - **Recon & Metodoloji modülü:** scope okuma, subdomain enumeration, content discovery, uygulama haritalama; recon tooling (subfinder, httpx, ffuf, nuclei) + Burp'te derinleşme. (Lab zafiyetin yerini verir; gerçek hedefte yeri SEN bulacaksın.)
 - **Haftada 1 disclosed report** (HackerOne Hacktivity) — birlikte okuyup çıkarımı [ilerleme/disclosed-report-gunlugu.md](./ilerleme/disclosed-report-gunlugu.md)'ye yazıyoruz.
+- **Haftada 1 OWASP analiz günü:** bir OWASP Top 10 kategorisini derinlemesine analiz + o kategoriye uygun lab'lar. (OWASP = sektörün ortak dili/çerçevesi — bilmek şart; bug-bulma checklist'i değil, risk haritası.)
 - **Odak dengesi:** pusula offensive'i gösteriyor; ama acemi için "kolay gerçek bulgular" genelde **IDOR / info disclosure** — onları da güçlendir.
 - **Zihin:** gerçek hedefte günlerce boş dönmek normaldir; dayanıklılık da bir beceri.
 
