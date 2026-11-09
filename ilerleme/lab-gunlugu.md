@@ -37,3 +37,4 @@
 | 31 | 07.11.2026 | PortSwigger | Access Control | User ID param + password disclosure | Apprentice |
 | 32 | 08.11.2026 | PortSwigger | Authentication | Username enumeration via different responses | Apprentice |
 | 33 | 09.11.2026 | PortSwigger | Information Disclosure | Information disclosure in error messages | Apprentice |
+| 34 | 09.11.2026 | PortSwigger | CSRF | CSRF vulnerability with no defenses | Apprentice |

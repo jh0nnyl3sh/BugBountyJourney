@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 35. · **Aktif gün:** 27 (%77) · **Çözülen lab:** 33 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 35. · **Aktif gün:** 27 (%77) · **Çözülen lab:** 34 · **Aktif güne ort.:** 1.3 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **33**
+### ✅ Toplam Çözülen Lab: **34**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -53,7 +53,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam |
-| CSRF | 0 | ⏳ sırada |
+| CSRF | 1 | 🔄 devam |
 | CORS | 0 | ⏳ sırada |
 | Clickjacking | 0 | ⏳ sırada |
 | WebSockets | 0 | ⏳ sırada |
@@ -84,6 +84,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
 - [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
 - [ ] **Information Disclosure** — hata mesajından sürüm sızıntısı (Struts 2.3.31) ✅ · (devam ediyor)
+- [ ] **CSRF** — savunmasız change-email, otomatik submit exploit (token yok) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
 
@@ -209,6 +210,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | Information disclosure in error messages | [01-infoleak-in-error-messages.md](./web-security/portswigger/information-disclosure/01-infoleak-in-error-messages.md) |
 
+### CSRF
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | CSRF vulnerability with no defenses | [01-csrf-no-defenses.md](./web-security/portswigger/csrf/01-csrf-no-defenses.md) |
+
 ## 🏆 Çözülen Lab'lar
 
 Tam kronolojik liste (uzadıkça README şişmesin diye ayrı dosyada): **[ilerleme/lab-gunlugu.md](./ilerleme/lab-gunlugu.md)**
@@ -230,7 +237,8 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 - **OS Command Injection:** blind (output yönlendirme, time delay, OAST)
 - **SSRF:** kalan türler (open-redirect ile atlatma, blind SSRF)
 - **Information Disclosure:** diğer sızıntı türleri (debug sayfası, yedek/kaynak dosya, versiyon kontrol, HTTP TRACE)
-- **Yeni sınıflar:** CSRF, Business Logic, file upload, path traversal (Tier-1/2 öncelikli)
+- **CSRF:** token bypass türleri (token var ama doğrulanmıyor, method değişimi, SameSite atlatma, Referer kontrolü zayıflığı)
+- **Yeni sınıflar:** Business Logic, file upload, path traversal (Tier-1/2 öncelikli)
 
 ## 🌉 Lab → Gerçek Hedefe Geçiş (köprü)
 
