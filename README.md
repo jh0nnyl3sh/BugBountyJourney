@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 34. · **Aktif gün:** 26 (%76) · **Çözülen lab:** 32 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 35. · **Aktif gün:** 27 (%77) · **Çözülen lab:** 33 · **Aktif güne ort.:** 1.2 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **32**
+### ✅ Toplam Çözülen Lab: **33**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -43,7 +43,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | Path Traversal | 0 | ⏳ sırada |
 | File Upload | 0 | ⏳ sırada |
 | Business Logic | 0 | ⏳ sırada |
-| Information Disclosure | 0 | ⏳ sırada |
+| Information Disclosure | 1 | 🔄 devam |
 | XXE Injection | 0 | ⏳ sırada |
 | NoSQL Injection | 0 | ⏳ sırada |
 | Race Conditions | 0 | ⏳ sırada |
@@ -83,6 +83,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 - [ ] **SSRF** — localhost ✅, iç ağ tarama ✅, blacklist ✅, whitelist atlatma (Expert) ✅ · (devam ediyor)
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
 - [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
+- [ ] **Information Disclosure** — hata mesajından sürüm sızıntısı (Struts 2.3.31) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
 
@@ -202,6 +203,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | Username enumeration via different responses (+Python) | [01-username-enumeration-different-responses.md](./web-security/portswigger/authentication/01-username-enumeration-different-responses.md) |
 
+### Information Disclosure
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Information disclosure in error messages | [01-infoleak-in-error-messages.md](./web-security/portswigger/information-disclosure/01-infoleak-in-error-messages.md) |
+
 ## 🏆 Çözülen Lab'lar
 
 Tam kronolojik liste (uzadıkça README şişmesin diye ayrı dosyada): **[ilerleme/lab-gunlugu.md](./ilerleme/lab-gunlugu.md)**
@@ -222,7 +229,8 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 
 - **OS Command Injection:** blind (output yönlendirme, time delay, OAST)
 - **SSRF:** kalan türler (open-redirect ile atlatma, blind SSRF)
-- **Yeni sınıflar:** Authentication, CSRF, file upload, SSTI, IDOR/access-control derinliği, info disclosure
+- **Information Disclosure:** diğer sızıntı türleri (debug sayfası, yedek/kaynak dosya, versiyon kontrol, HTTP TRACE)
+- **Yeni sınıflar:** CSRF, Business Logic, file upload, path traversal (Tier-1/2 öncelikli)
 
 ## 🌉 Lab → Gerçek Hedefe Geçiş (köprü)
 
