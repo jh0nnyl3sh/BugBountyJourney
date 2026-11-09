@@ -2,6 +2,13 @@
 
 > Amaç: "her şeye ilgim var" belirsizliğini, zamanla **keyif verisiyle** çözmek. Zorla alan seçmek yok; neyi yaparken "aktığım" biriktikçe uzmanlaşma kendini gösterir. Her lab sonrası kısa bir keyif notu; her milestone'da deseni okuruz.
 
+
+## 📊 Grafik
+
+![İlgi Pusulası — Konu Bazlı Keyif Grafiği](./ilgi-pusulasi-grafik.svg)
+
+> Dikey: keyif (1–5) · Taban: konular, **Ofansif (Red)** / **Defansif (Blue)** ayrımı · server-side (kırmızı) vs client-side (turuncu). Grafik her yeni puanla güncellenir.
+
 ## Siber güvenlik alanları (hepsi aynı temeli paylaşır)
 - Offensive web / bug bounty · Network/infra pentest · Red team · Exploit dev / vuln research · Security tooling & automation · AppSec / secure code review · Blue team / DFIR
 
