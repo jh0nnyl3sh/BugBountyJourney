@@ -31,3 +31,4 @@
 | Authentication #1 (username enum + brute) | 4 | Python brute-force "havalı ve zevkli". İki aşamalı kendi scripti. Takıntı: file-I/O + param swap. |
 | Information Disclosure #1 (error message leak) | 4 | Tarayıcıdan hızlı çözdü (Burp bile gerekmedi); productId=a -> stack trace -> sürüm. Keyifli: "error'a zorla, sızıntıyı oku" recon refleksi; saha girişine en yakın his. |
 | CSRF #1 (no defenses) | 4 | İlk "kimlik istismarı" ekseni; exploit formunu elle kurdu, otomatik submit. "Bana hepsi hoş geliyor" dedi — belirgin bir angarya yok, geniş bir keyif tabanı. |
+| CSRF #2 (token bypass: present-check) | 4 | "3.5–4" dedi. Rehberli çözdük; iki Repeater deneyiyle savunmayı kırma hoşuna gitti. Meta: "zafiyet bulmak, açık aramak genel manada iyi hissettiriyor" — çekirdek motivasyon = açık arama eylemi. |
