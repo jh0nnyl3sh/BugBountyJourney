@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 35. · **Aktif gün:** 27 (%77) · **Çözülen lab:** 34 · **Aktif güne ort.:** 1.3 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 36. · **Aktif gün:** 28 (%78) · **Çözülen lab:** 35 · **Aktif güne ort.:** 1.3 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **34**
+### ✅ Toplam Çözülen Lab: **35**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -53,7 +53,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam |
-| CSRF | 1 | 🔄 devam |
+| CSRF | 2 | 🔄 devam |
 | CORS | 0 | ⏳ sırada |
 | Clickjacking | 0 | ⏳ sırada |
 | WebSockets | 0 | ⏳ sırada |
@@ -84,7 +84,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
 - [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
 - [ ] **Information Disclosure** — hata mesajından sürüm sızıntısı (Struts 2.3.31) ✅ · (devam ediyor)
-- [ ] **CSRF** — savunmasız change-email, otomatik submit exploit (token yok) ✅ · (devam ediyor)
+- [ ] **CSRF** — no-defenses ✅ + token bypass (token varken yok sayınca atlanıyor) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
 
@@ -215,6 +215,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | # | Lab | Dosya |
 |---|-----|-------|
 | 1 | CSRF vulnerability with no defenses | [01-csrf-no-defenses.md](./web-security/portswigger/csrf/01-csrf-no-defenses.md) |
+| 2 | Token validation depends on token being present (token bypass) | [02-token-validation-depends-on-token-being-present.md](./web-security/portswigger/csrf/02-token-validation-depends-on-token-being-present.md) |
 
 ## 🏆 Çözülen Lab'lar
 
