@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 36. · **Aktif gün:** 28 (%78) · **Çözülen lab:** 35 · **Aktif güne ort.:** 1.3 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 37. · **Aktif gün:** 29 (%78) · **Çözülen lab:** 36 · **Aktif güne ort.:** 1.2 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **35**
+### ✅ Toplam Çözülen Lab: **36**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -43,7 +43,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | Path Traversal | 0 | ⏳ sırada |
 | File Upload | 0 | ⏳ sırada |
 | Business Logic | 0 | ⏳ sırada |
-| Information Disclosure | 1 | 🔄 devam |
+| Information Disclosure | 2 | 🔄 devam |
 | XXE Injection | 0 | ⏳ sırada |
 | NoSQL Injection | 0 | ⏳ sırada |
 | Race Conditions | 0 | ⏳ sırada |
@@ -83,7 +83,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 - [ ] **SSRF** — localhost ✅, iç ağ tarama ✅, blacklist ✅, whitelist atlatma (Expert) ✅ · (devam ediyor)
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
 - [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
-- [ ] **Information Disclosure** — hata mesajından sürüm sızıntısı (Struts 2.3.31) ✅ · (devam ediyor)
+- [ ] **Information Disclosure** — error message (sürüm) ✅ + backup file (kaynak kod + DB parola) ✅ · (devam ediyor)
 - [ ] **CSRF** — no-defenses ✅ + token bypass (token varken yok sayınca atlanıyor) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
@@ -209,6 +209,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | # | Lab | Dosya |
 |---|-----|-------|
 | 1 | Information disclosure in error messages | [01-infoleak-in-error-messages.md](./web-security/portswigger/information-disclosure/01-infoleak-in-error-messages.md) |
+| 2 | Source code disclosure via backup files | [02-source-code-disclosure-via-backup-files.md](./web-security/portswigger/information-disclosure/02-source-code-disclosure-via-backup-files.md) |
 
 ### CSRF
 

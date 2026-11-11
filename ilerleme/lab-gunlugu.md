@@ -39,3 +39,4 @@
 | 33 | 09.11.2026 | PortSwigger | Information Disclosure | Information disclosure in error messages | Apprentice |
 | 34 | 09.11.2026 | PortSwigger | CSRF | CSRF vulnerability with no defenses | Apprentice |
 | 35 | 10.11.2026 | PortSwigger | CSRF | Token validation depends on token being present (token bypass) | **Practitioner** |
+| 36 | 11.11.2026 | PortSwigger | Information Disclosure | Source code disclosure via backup files | Apprentice |
