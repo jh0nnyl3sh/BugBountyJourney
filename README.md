@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 37. · **Aktif gün:** 29 (%78) · **Çözülen lab:** 36 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 39. · **Aktif gün:** 30 (%77) · **Çözülen lab:** 37 · **Aktif güne ort.:** 1.2 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **36**
+### ✅ Toplam Çözülen Lab: **37**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -53,7 +53,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
 | Cross-Site Scripting (XSS) | 7 | 🔄 devam |
-| CSRF | 2 | 🔄 devam |
+| CSRF | 3 | 🔄 devam |
 | CORS | 0 | ⏳ sırada |
 | Clickjacking | 0 | ⏳ sırada |
 | WebSockets | 0 | ⏳ sırada |
@@ -84,7 +84,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 - [ ] **OS Command Injection** — simple case (RCE, whoami) ✅ · (blind sürüyor)
 - [ ] **Authentication** — username enumeration + brute-force (Python) ✅ · (devam ediyor)
 - [ ] **Information Disclosure** — error message (sürüm) ✅ + backup file (kaynak kod + DB parola) ✅ · (devam ediyor)
-- [ ] **CSRF** — no-defenses ✅ + token bypass (token varken yok sayınca atlanıyor) ✅ · (devam ediyor)
+- [ ] **CSRF** — no-defenses ✅ + token-present bypass ✅ + request-method bypass (POST→GET) ✅ · (devam ediyor)
 - [ ] **CSRF**
 - [ ] **Python ile otomasyon** (payload/recon)
 
@@ -217,6 +217,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | CSRF vulnerability with no defenses | [01-csrf-no-defenses.md](./web-security/portswigger/csrf/01-csrf-no-defenses.md) |
 | 2 | Token validation depends on token being present (token bypass) | [02-token-validation-depends-on-token-being-present.md](./web-security/portswigger/csrf/02-token-validation-depends-on-token-being-present.md) |
+| 3 | Token validation depends on request method (POST→GET bypass) | [03-token-validation-depends-on-request-method.md](./web-security/portswigger/csrf/03-token-validation-depends-on-request-method.md) |
 
 ## 🏆 Çözülen Lab'lar
 
