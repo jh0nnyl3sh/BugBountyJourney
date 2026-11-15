@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 40. · **Aktif gün:** 31 (%78) · **Çözülen lab:** 37 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 41. · **Aktif gün:** 32 (%78) · **Çözülen lab:** 37 · **Aktif güne ort.:** 1.2 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -236,6 +236,8 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 **İlgi pusulası (hangi alana yatkınım):** [ilgi-pusulasi.md](./ilerleme/ilgi-pusulasi.md)
 
 **Spiral tekrar günlüğü (eski konuları elle tazeleme):** [spiral-tekrar-gunlugu.md](./ilerleme/spiral-tekrar-gunlugu.md)
+
+**OWASP Top 10 analiz günlüğü (Pazar günleri):** [owasp-analiz-gunlugu.md](./ilerleme/owasp-analiz-gunlugu.md)
 
 ## 🔜 Sıradaki Adım
 

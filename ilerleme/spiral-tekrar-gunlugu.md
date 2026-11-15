@@ -16,3 +16,4 @@
 - **SQL Injection** → en çok lab (11) ama bir süredir el değmedi; yakında bir blind SQLi re-solve
 - **XSS** → 7 lab, uzun süredir dokunulmadı; ilgi pusulasında bile puanlanmamış — tazeleme sırada
 - **Access Control / IDOR** → orta tazelik
+| 2 | 15.11.2026 | Access Control (A01) | Unprotected admin functionality (AC #5) | 🔄 tazelendi | OWASP A01 gününde re-solve. GELİŞİM KANITI: 12.10'da robots.txt'i bilmiyordu, sormuştu; bugün /admin çalışmayınca **kendi başına** robots.txt'e gitti → /administrator-panel → carlos. Info Disclosure + Broken Access Control zincirini kendi kurdu. |
