@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 41. · **Aktif gün:** 32 (%78) · **Çözülen lab:** 37 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 42. · **Aktif gün:** 33 (%79) · **Çözülen lab:** 37 · **Aktif güne ort.:** 1.1 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
