@@ -34,3 +34,4 @@
 | CSRF #2 (token bypass: present-check) | 4 | "3.5–4" dedi. Rehberli çözdük; iki Repeater deneyiyle savunmayı kırma hoşuna gitti. Meta: "zafiyet bulmak, açık aramak genel manada iyi hissettiriyor" — çekirdek motivasyon = açık arama eylemi. |
 | Info Disclosure #2 (backup file source leak) | 4 | Yorgun gece, hızlı solve istedi. /robots.txt -> /backup -> .bak -> hardcoded parola. Kaynak kodda SQLi noktasını kendi fark etti (refleks gelişiyor). |
 | CSRF #3 (request-method bypass: POST→GET) | 3 | İlk 3. Vuln mantığı güzeldi ama Burp method-change + exploit server Head/Body uğraşı "operasyonel" geldi; saf açık-arama hazzından çok araç-fiddling. CSRF artık 3–4 bandında. |
+| XSS #8 (filter bypass, SVG markup) | 4 | XSS'in İLK puanı. Python ile iki aşamalı tag/event enumerate + bypass. "Python kullanmak eğlenceliydi" — otomasyon + açık arama birleşince keyif yüksek. Tooling değil, kendi scanner'ıyla kırmak. |

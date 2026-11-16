@@ -40,8 +40,8 @@
 <rect x="435.3" y="144.8" width="42.8" height="195.2" rx="3" fill="#c0392b"/>
 <text x="456.8" y="137.8" font-size="14" font-weight="700" fill="#c0392b" text-anchor="middle">4</text>
 <text x="456.8" y="354.0" font-size="11" fill="#333" text-anchor="end" transform="rotate(-38 456.8 354.0)">Info Disclosure</text>
-<rect x="506.7" y="96.0" width="42.8" height="244.0" fill="none" stroke="#e67e22" stroke-width="1.5" stroke-dasharray="5 4" opacity="0.55"/>
-<text x="528.2" y="218" font-size="11" fill="#8a8a8a" text-anchor="middle" transform="rotate(-90 528.2 218)">puanlanmadı</text>
+<rect x="506.7" y="144.8" width="42.8" height="195.2" rx="3" fill="#e67e22"/>
+<text x="528.2" y="137.8" font-size="14" font-weight="700" fill="#e67e22" text-anchor="middle">4</text>
 <text x="528.2" y="354.0" font-size="11" fill="#333" text-anchor="end" transform="rotate(-38 528.2 354.0)">XSS</text>
 <rect x="578.2" y="144.8" width="42.8" height="195.2" rx="3" fill="#e67e22"/>
 <text x="599.6" y="137.8" font-size="14" font-weight="700" fill="#e67e22" text-anchor="middle">4</text>
@@ -54,5 +54,5 @@
 <text x="83" y="467" font-size="11" fill="#333">server-side (sunucu/veri hedefli)</text>
 <rect x="304" y="456" width="13" height="13" rx="2" fill="#e67e22"/>
 <text x="323" y="467" font-size="11" fill="#333">client-side (kullanıcı/tarayıcı hedefli)</text>
-<text x="64" y="486" font-size="10" fill="#8a8a8a">Okuma: tüm verin şu an OFANSİF tarafta — sinyal net. En yüksek keyif: SQLi &amp; Command Injection (5).</text>
+<text x="64" y="486" font-size="10" fill="#8a8a8a">Okuma: tüm verin OFANSİF tarafta. En yüksek keyif: SQLi &amp; Command Injection (5). XSS artık puanlı (4).</text>
 </svg>
