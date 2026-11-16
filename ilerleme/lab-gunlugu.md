@@ -41,3 +41,4 @@
 | 35 | 10.11.2026 | PortSwigger | CSRF | Token validation depends on token being present (token bypass) | **Practitioner** |
 | 36 | 11.11.2026 | PortSwigger | Information Disclosure | Source code disclosure via backup files | Apprentice |
 | 37 | 13.11.2026 | PortSwigger | CSRF | Token validation depends on request method (POST→GET) | **Practitioner** |
+| 38 | 16.11.2026 | PortSwigger | XSS | Reflected XSS with some SVG markup allowed (filter bypass) | **Practitioner** |
