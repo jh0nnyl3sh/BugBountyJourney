@@ -35,3 +35,4 @@
 | Info Disclosure #2 (backup file source leak) | 4 | Yorgun gece, hızlı solve istedi. /robots.txt -> /backup -> .bak -> hardcoded parola. Kaynak kodda SQLi noktasını kendi fark etti (refleks gelişiyor). |
 | CSRF #3 (request-method bypass: POST→GET) | 3 | İlk 3. Vuln mantığı güzeldi ama Burp method-change + exploit server Head/Body uğraşı "operasyonel" geldi; saf açık-arama hazzından çok araç-fiddling. CSRF artık 3–4 bandında. |
 | XSS #8 (filter bypass, SVG markup) | 4 | XSS'in İLK puanı. Python ile iki aşamalı tag/event enumerate + bypass. "Python kullanmak eğlenceliydi" — otomasyon + açık arama birleşince keyif yüksek. Tooling değil, kendi scanner'ıyla kırmak. |
+| XSS #9 (filter bypass, most tags blocked) | 4 | Yine 4. "Python kullanmak iyi hissettiriyor." İki yeni ders: wordlist=görüş (false negative), ve otomatik vs dış-tetik event (iframe/resize delivery). Python otomasyonu + açık arama = tutarlı keyif deseni. |
