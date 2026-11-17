@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 42. · **Aktif gün:** 33 (%79) · **Çözülen lab:** 38 · **Aktif güne ort.:** 1.2 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 43. · **Aktif gün:** 34 (%79) · **Çözülen lab:** 39 · **Aktif güne ort.:** 1.1 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **38**
+### ✅ Toplam Çözülen Lab: **39**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -52,7 +52,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 **🌐 Client-side**
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
-| Cross-Site Scripting (XSS) | 8 | 🔄 devam |
+| Cross-Site Scripting (XSS) | 9 | 🔄 devam |
 | CSRF | 3 | 🔄 devam |
 | CORS | 0 | ⏳ sırada |
 | Clickjacking | 0 | ⏳ sırada |
@@ -167,6 +167,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 6 | DOM XSS — innerHTML sink (source: location.search) | [06-innerhtml-sink.md](./web-security/portswigger/cross-site-scripting/06-innerhtml-sink.md) |
 | 7 | Anchor href — javascript: şeması (breakout kapalı) | [07-href-javascript-scheme.md](./web-security/portswigger/cross-site-scripting/07-href-javascript-scheme.md) |
 | 8 | **Filter bypass** — SVG markup allowed (Python ile izinli tag/event enumerate) `Practitioner` | [08-filter-bypass-svg-markup.md](./web-security/portswigger/cross-site-scripting/08-filter-bypass-svg-markup.md) |
+| 9 | **Filter bypass** — most tags blocked (body+onresize, iframe/resize delivery) `Practitioner` | [09-filter-bypass-most-tags-blocked.md](./web-security/portswigger/cross-site-scripting/09-filter-bypass-most-tags-blocked.md) |
 
 ### SQL Injection
 
