@@ -43,3 +43,4 @@
 | 37 | 13.11.2026 | PortSwigger | CSRF | Token validation depends on request method (POST→GET) | **Practitioner** |
 | 38 | 16.11.2026 | PortSwigger | XSS | Reflected XSS with some SVG markup allowed (filter bypass) | **Practitioner** |
 | 39 | 17.11.2026 | PortSwigger | XSS | Most tags and attributes blocked (filter bypass + iframe/resize delivery) | **Practitioner** |
+| 40 | 18.11.2026 | PortSwigger | XSS | Exploiting XSS to perform CSRF (Stored XSS → CSRF zinciri) | **Practitioner** |
