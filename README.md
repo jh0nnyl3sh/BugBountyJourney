@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 44. · **Aktif gün:** 35 (%80) · **Çözülen lab:** 40 · **Aktif güne ort.:** 1.1 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 45. · **Aktif gün:** 36 (%80) · **Çözülen lab:** 41 · **Aktif güne ort.:** 1.1 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **40**
+### ✅ Toplam Çözülen Lab: **41**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -52,7 +52,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 **🌐 Client-side**
 | Konu | Çözülen | Durum |
 |------|:-------:|-------|
-| Cross-Site Scripting (XSS) | 10 | 🔄 devam |
+| Cross-Site Scripting (XSS) | 11 | 🔄 devam |
 | CSRF | 3 | 🔄 devam |
 | CORS | 0 | ⏳ sırada |
 | Clickjacking | 0 | ⏳ sırada |
@@ -169,6 +169,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 8 | **Filter bypass** — SVG markup allowed (Python ile izinli tag/event enumerate) `Practitioner` | [08-filter-bypass-svg-markup.md](./web-security/portswigger/cross-site-scripting/08-filter-bypass-svg-markup.md) |
 | 9 | **Filter bypass** — most tags blocked (body+onresize, iframe/resize delivery) `Practitioner` | [09-filter-bypass-most-tags-blocked.md](./web-security/portswigger/cross-site-scripting/09-filter-bypass-most-tags-blocked.md) |
 | 10 | **Weaponization** — XSS ile CSRF (Stored XSS → token oku → change-email) `Practitioner` | [10-exploiting-xss-to-perform-csrf.md](./web-security/portswigger/cross-site-scripting/10-exploiting-xss-to-perform-csrf.md) |
+| 11 | **Weaponization** — cookie çalma (custom data sink + session hijacking, Collaborator'sız) `Practitioner` | [11-exploiting-xss-to-steal-cookies.md](./web-security/portswigger/cross-site-scripting/11-exploiting-xss-to-steal-cookies.md) |
 
 ### SQL Injection
 

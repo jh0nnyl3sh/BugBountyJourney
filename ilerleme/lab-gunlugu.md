@@ -44,3 +44,4 @@
 | 38 | 16.11.2026 | PortSwigger | XSS | Reflected XSS with some SVG markup allowed (filter bypass) | **Practitioner** |
 | 39 | 17.11.2026 | PortSwigger | XSS | Most tags and attributes blocked (filter bypass + iframe/resize delivery) | **Practitioner** |
 | 40 | 18.11.2026 | PortSwigger | XSS | Exploiting XSS to perform CSRF (Stored XSS → CSRF zinciri) | **Practitioner** |
+| 41 | 19.11.2026 | PortSwigger | XSS | Exploiting XSS to steal cookies (custom data sink + session hijacking) | **Practitioner** |
