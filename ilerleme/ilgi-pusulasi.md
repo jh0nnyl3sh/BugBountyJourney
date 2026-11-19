@@ -37,3 +37,4 @@
 | XSS #8 (filter bypass, SVG markup) | 4 | XSS'in İLK puanı. Python ile iki aşamalı tag/event enumerate + bypass. "Python kullanmak eğlenceliydi" — otomasyon + açık arama birleşince keyif yüksek. Tooling değil, kendi scanner'ıyla kırmak. |
 | XSS #9 (filter bypass, most tags blocked) | 4 | Yine 4. "Python kullanmak iyi hissettiriyor." İki yeni ders: wordlist=görüş (false negative), ve otomatik vs dış-tetik event (iframe/resize delivery). Python otomasyonu + açık arama = tutarlı keyif deseni. |
 | XSS #10 (exploiting XSS to perform CSRF) | 4 | Eşik lab: "alert dışında hesabı ele geçirdik." İki adımlı AJAX (token oku→kullan). XSS+CSRF zinciri. İlk gerçek impact — pop-up değil, hesap ele geçirme. |
+| XSS #11 (steal cookies, custom data sink) | 4 | Collaborator yoktu, custom data sink ile çözdük (altyapısız exfil). Yolda DOM-ordering debugging (window load). Cookie çal → session hijacking → ATO. Gerçek saha hissi: ilk payload patladı, neden'i bulup düzelttik. |
