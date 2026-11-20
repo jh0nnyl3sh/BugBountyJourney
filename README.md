@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 45. · **Aktif gün:** 36 (%80) · **Çözülen lab:** 41 · **Aktif güne ort.:** 1.1 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 46. · **Aktif gün:** 37 (%80) · **Çözülen lab:** 42 · **Aktif güne ort.:** 1.1 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **41**
+### ✅ Toplam Çözülen Lab: **42**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -42,7 +42,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | OS Command Injection | 1 | 🔄 devam |
 | Path Traversal | 0 | ⏳ sırada |
 | File Upload | 0 | ⏳ sırada |
-| Business Logic | 0 | ⏳ sırada |
+| Business Logic | 1 | 🔄 devam |
 | Information Disclosure | 2 | 🔄 devam |
 | XXE Injection | 0 | ⏳ sırada |
 | NoSQL Injection | 0 | ⏳ sırada |
@@ -223,6 +223,12 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 | 2 | Token validation depends on token being present (token bypass) | [02-token-validation-depends-on-token-being-present.md](./web-security/portswigger/csrf/02-token-validation-depends-on-token-being-present.md) |
 | 3 | Token validation depends on request method (POST→GET bypass) | [03-token-validation-depends-on-request-method.md](./web-security/portswigger/csrf/03-token-validation-depends-on-request-method.md) |
 
+### Business Logic
+
+| # | Lab | Dosya |
+|---|-----|-------|
+| 1 | Excessive trust in client-side controls (price tampering) | [01-excessive-trust-client-side-controls.md](./web-security/portswigger/business-logic/01-excessive-trust-client-side-controls.md) |
+
 ## 🏆 Çözülen Lab'lar
 
 Tam kronolojik liste (uzadıkça README şişmesin diye ayrı dosyada): **[ilerleme/lab-gunlugu.md](./ilerleme/lab-gunlugu.md)**
@@ -249,7 +255,8 @@ Belirli aralıklarla kısa öz-değerlendirme; sonraki milestone'da kıyaslamak 
 - **SSRF:** kalan türler (open-redirect ile atlatma, blind SSRF)
 - **Information Disclosure:** diğer sızıntı türleri (debug sayfası, yedek/kaynak dosya, versiyon kontrol, HTTP TRACE)
 - **CSRF:** token bypass türleri (token var ama doğrulanmıyor, method değişimi, SameSite atlatma, Referer kontrolü zayıflığı)
-- **Yeni sınıflar:** Business Logic, file upload, path traversal (Tier-1/2 öncelikli)
+- **Business Logic:** diğer mantık hataları (akış atlama, negatif/aşırı değerler, yetersiz doğrulama) — Uğur'un güçlü yanı
+- **Yeni sınıflar:** file upload, path traversal, SSRF derinleştirme (Tier-1/2 öncelikli)
 
 ## 🌉 Lab → Gerçek Hedefe Geçiş (köprü)
 

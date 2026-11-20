@@ -45,3 +45,4 @@
 | 39 | 17.11.2026 | PortSwigger | XSS | Most tags and attributes blocked (filter bypass + iframe/resize delivery) | **Practitioner** |
 | 40 | 18.11.2026 | PortSwigger | XSS | Exploiting XSS to perform CSRF (Stored XSS → CSRF zinciri) | **Practitioner** |
 | 41 | 19.11.2026 | PortSwigger | XSS | Exploiting XSS to steal cookies (custom data sink + session hijacking) | **Practitioner** |
+| 42 | 20.11.2026 | PortSwigger | Business Logic | Excessive trust in client-side controls (price tampering) | Apprentice |
