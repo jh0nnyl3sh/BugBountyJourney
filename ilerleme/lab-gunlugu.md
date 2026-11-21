@@ -46,3 +46,4 @@
 | 40 | 18.11.2026 | PortSwigger | XSS | Exploiting XSS to perform CSRF (Stored XSS → CSRF zinciri) | **Practitioner** |
 | 41 | 19.11.2026 | PortSwigger | XSS | Exploiting XSS to steal cookies (custom data sink + session hijacking) | **Practitioner** |
 | 42 | 20.11.2026 | PortSwigger | Business Logic | Excessive trust in client-side controls (price tampering) | Apprentice |
+| 43 | 21.11.2026 | PortSwigger | Business Logic | High-level logic vulnerability (negatif quantity) | Apprentice |
