@@ -12,7 +12,7 @@
 
 > Commit geçmişinden üretilen anlık aktivite haritası (periyodik tazelenir).
 
-**Başlangıç:** 06.10.2026 · **Gün:** 47. · **Aktif gün:** 38 (%81) · **Çözülen lab:** 43 · **Aktif güne ort.:** 1.1 lab
+**Başlangıç:** 06.10.2026 · **Gün:** 50. · **Aktif gün:** 39 (%78) · **Çözülen lab:** 44 · **Aktif güne ort.:** 1.1 lab
 
 ## 🎯 Öncelik Sırası (sahaya hazırlık)
 
@@ -28,7 +28,7 @@ Gerçek VDP/bug bounty'de **frekans × bulunabilirlik × etki**'ye göre; en ço
 
 ## 📊 Scoreboard
 
-### ✅ Toplam Çözülen Lab: **43**
+### ✅ Toplam Çözülen Lab: **44**
 
 Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; her konunun çok daha fazla lab'ı var — bu tablo "neye dokundum / ne kaldı" haritası).
 
@@ -42,7 +42,7 @@ Konu bazında **çözülen** lab sayısı (PortSwigger müfredatının tamamı; 
 | OS Command Injection | 1 | 🔄 devam |
 | Path Traversal | 0 | ⏳ sırada |
 | File Upload | 0 | ⏳ sırada |
-| Business Logic | 2 | 🔄 devam |
+| Business Logic | 3 | 🔄 devam |
 | Information Disclosure | 2 | 🔄 devam |
 | XXE Injection | 0 | ⏳ sırada |
 | NoSQL Injection | 0 | ⏳ sırada |
@@ -229,6 +229,7 @@ Her yeni konuya geçmeden önce ilgili dosyayı bir oku, tekrar et, sonra devam 
 |---|-----|-------|
 | 1 | Excessive trust in client-side controls (price tampering) | [01-excessive-trust-client-side-controls.md](./web-security/portswigger/business-logic/01-excessive-trust-client-side-controls.md) |
 | 2 | High-level logic vulnerability (negatif quantity + matematik) | [02-high-level-logic-vulnerability.md](./web-security/portswigger/business-logic/02-high-level-logic-vulnerability.md) |
+| 3 | Low-level logic flaw (integer overflow + Python + modüler matematik) `Practitioner` | [03-low-level-logic-flaw.md](./web-security/portswigger/business-logic/03-low-level-logic-flaw.md) |
 
 ## 🏆 Çözülen Lab'lar
 
