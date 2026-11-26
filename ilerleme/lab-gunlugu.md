@@ -48,3 +48,4 @@
 | 42 | 20.11.2026 | PortSwigger | Business Logic | Excessive trust in client-side controls (price tampering) | Apprentice |
 | 43 | 21.11.2026 | PortSwigger | Business Logic | High-level logic vulnerability (negatif quantity) | Apprentice |
 | 44 | 24.11.2026 | PortSwigger | Business Logic | Low-level logic flaw (integer overflow) | **Practitioner** |
+| 45 | 26.11.2026 | PortSwigger | Business Logic | Inconsistent security controls | **Practitioner** |
